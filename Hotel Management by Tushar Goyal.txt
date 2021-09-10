@@ -1,0 +1,166 @@
+
+# *****************************************Welcome to the Hotel Management System readme file*****************************************
+
+# **************************************************It is developed by Tushar Goyal*************************************************
+
+Note : All the images used in it are downloaded from web so subjected to copyright by their respective owners
+
+ 
+
+****************************Indroduction************************************
+
+Hotel Management System as the name suggests is built to manage the working
+
+of daily routines in a hotel. It is basically built on the tkinter module to
+
+make it very user friendly. This gui is connected for data in backend with 
+
+mysql workbench. Here I decided to make multiple windows to make the task easy.
+
+
+******************************Modules used***********************************
+
+1. tkinter 
+
+2. mysql.connector         (pip install tkinter)
+
+3. messagebox from tkinter
+
+4. ttk in tkinter
+
+5. random
+
+6. Image, ImageTk from Pil     (pip install Pil)
+
+
+*********************************Working***********************************
+
+# Firstly I have made Main login page where user can login (login.py). 
+  User can register here if not registered on clicking the register button.
+  If he/she have forget his password then he can forget password it also.
+
+	# If user clicks register button then he/she would be redirected to 
+	  new window or register page (register.py)
+
+	# On registering his/her details would be saved in the backend in a 
+	  table. Only one username is allowed. Duplicate username would not
+	  be allowed by the system.
+
+	# On clicking the forget password button new window would be opened
+          (forget_password.py). This window would not open till user have 
+	  entered right username. Because why not registerd user want to 
+	  reset password
+
+
+# On the registration page after user can login from here (login_new.py).
+  Or he/she if want can register another user if want, by resetting the
+  details now.
+
+	# On logining in with the new window or logining in from the user
+ 	  would be redirected to main page (hotel.py)
+
+
+# hotel.py would open in a new window and have various buttons to interact with
+
+	# This window have four working buttons which is used to open different
+	  windows
+
+	# Customer, Details, Room, Logout (report is not working now if 
+	  am not able to think what to add in it)
+	
+	***************Customer window (customer.py)
+	This window would allow user to add customer details like name, motherName,
+	etc. This window have four buttons on left (add, update, delete, reset)
+	Working of these windows is as same as the names suggests.
+
+	Customer data is stored in the backend and would be used afterwards.
+	This window contains means to search customer details on the basis of 4
+	things. 
+
+	Data searched would be showed on the table made in the downside
+
+
+	****************Room Window (room.py)
+	This window is used for adding the customer to a room. This window also contains
+	buttons which have task as the name suggests. This window has a separate
+	button called fetch data of customer. Which shows the data of the customer 
+	on the right side empty space.
+
+	Customer not added in system using previous window cannot be alloted to a
+	room.
+
+	This window have a generate bill button. Which fetches the data from backend
+	of the customer and genrates the bill for the user of customer.
+
+	***************Details Window (details.py)
+	This window is created for the addition or deletion of a room from the database.
+	For Ex. Customer a is registerd as a customer and is alloted a room 1 on floor
+	1. Then for not making a error and alloting a new room to differnt customer, this
+	room needs to be deleted in details window
+
+	***************Logout window
+	On clicking the logout button user would be loged out and program would get shut
+
+
+
+
+
+********************************************************************************************************************
+
+ If anyone have any query regarding it I can help you just mail me your problems at 
+         
+
+	**************** tushargoyal628@gmail.com **********************
+
+
+I am developing it and would make it more better in future on the basis of disparencies
+ i think it have.
+
+
+
+       *********************************ThankYou*************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
